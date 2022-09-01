@@ -1,0 +1,11 @@
+[TEMPLATE_CONFIGURATION]
+name = Ninety Four template configuration
+template = book
+stylesheet = style.rts
+
+parts =
+    title
+    contents
+
+[SectionTitles]
+chapter = ''

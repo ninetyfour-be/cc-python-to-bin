@@ -1,0 +1,12 @@
+{
+  "client_name": "John Doe",
+  "windows": false,
+  "macos": false,
+  "linux": false,
+  "__client_slug": "{{ cookiecutter.client_name | slugify }}",
+  "__project_uid": "{% now 'utc', '%Y%m%d' %}_{{ cookiecutter.__client_slug }}",
+  "_extensions": [
+    "cookiecutter.extensions.SlugifyExtension",
+    "cookiecutter.extensions.RandomStringExtension"
+  ]
+}

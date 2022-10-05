@@ -1,5 +1,7 @@
 # Screenshots
 
+Here are screenshots of your application in the different virtual machines used to build and test it.
+
 {% if cookiecutter.windows -%}
 ## Windows
 
